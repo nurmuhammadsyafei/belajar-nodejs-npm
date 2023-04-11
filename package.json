@@ -1,0 +1,24 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurmuhammadsyafei/belajar-nodejs-npm.git"
+  },
+  "keywords": [
+    "syafei",
+    "belajar-npm",
+    "npm"
+  ],
+  "author": "Nur Muhammad Syafei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurmuhammadsyafei/belajar-nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/nurmuhammadsyafei/belajar-nodejs-npm#readme"
+}
