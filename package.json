@@ -2,9 +2,17 @@
   "name": "belajar-nodejs-npm",
   "version": "1.0.0",
   "description": "Belajar NodeJS NPM",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "homepage": "https://github.com/nurmuhammadsyafei/belajar-nodejs-npm#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "prestart": "echo 'Ini adalah pre start'",
+    "start": "node index.js",
+    "poststart": "echo 'Ini adalah Setelah Start'"
   },
   "repository": {
     "type": "git",
@@ -17,8 +25,11 @@
   ],
   "author": "Nur Muhammad Syafei",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/nurmuhammadsyafei/belajar-nodejs-npm/issues"
   },
-  "homepage": "https://github.com/nurmuhammadsyafei/belajar-nodejs-npm#readme"
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
 }
