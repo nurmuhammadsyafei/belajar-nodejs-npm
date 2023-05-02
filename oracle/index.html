@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee List</title>
+</head>
+<body>
+  <h1>Employee List</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Salary</th>
+    </tr>
+    <% for (let i = 0; i < data.length; i++) { %>
+      <tr>
+        <td><%= data[i][0] %></td>
+        <td><%= data[i][1] %></td>
+        <td><%= data[i][2] %></td>
+        <td><%= data[i][3] %></td>
+      </tr>
+    <% } %>
+  </table>
+</body>
+</html>

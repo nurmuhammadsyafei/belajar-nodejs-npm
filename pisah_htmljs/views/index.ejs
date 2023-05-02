@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Data dari Database Oracle</title>
+</head>
+<body>
+    <h1>Data dari Database Oracle</h1>
+    <table border=1>
+        <tr>
+            <th>COLOR_HEX</th>
+            <th>COLOR_RGB</th>
+            <th>PATTERN_NO</th>
+            <th>Aksi</th>
+        </tr>
+        <% data.forEach(function(row) { %>
+            <tr>
+                <td><%= row.COLOR_HEX %></td>
+                <td><%= row.COLOR_RGB %></td>
+                <td><%= row.PATTERN_NO %></td>
+                <td>
+                    <form action="/halaman-kedua">
+                        <button type="submit">Edit</button>
+                      </form>
+                </td>
+            </tr>
+        <% }); %>
+    </table>
+</body>
+</html>
